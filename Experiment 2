@@ -1,4 +1,0 @@
-weight=int(input('Enter your Weight:'))
-
-print(f'Your weight on earth is: {weight*9.81}')
-print(f'Your weight on moon is: {weight*1.62}')

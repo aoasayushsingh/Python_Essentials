@@ -1,0 +1,15 @@
+assignments = ["Math Homework", "DBMS Project", "Python Lab"]
+print("Original Assignments:")
+print(assignments)
+new_assignment = "English Essay"
+assignments.append(new_assignment)
+completed_assignment = "Math Homework"
+
+if completed_assignment in assignments:
+    assignments.remove(completed_assignment)
+    print(f"\n'{completed_assignment}' has been completed and removed.")
+else:
+    print(f"\n'{completed_assignment}' not found in the list.")
+print("\nUpdated Assignments:")
+for assignment in assignments:
+    print("-", assignment)

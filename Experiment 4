@@ -1,0 +1,6 @@
+coded_message = input("Enter the coded message (string): ")
+secret_message = input("Enter the secret message (substring): ")
+if secret_message in coded_message:
+print("Success! The secret message is found inside the coded message.")
+else:
+print("Not found! The secret message is not inside the coded message.")

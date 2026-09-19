@@ -1,0 +1,21 @@
+a=int(input('Enter First Number: '))
+b=int(input('Enter Second Number: '))
+
+print(f'The addition of {a} and {b} is {a+b}')
+print(f'The subtraction of {a} and {b} is {a-b}')
+print(f'The multiplication of {a} and {b} is {a*b}')
+print(f'The division of {a} and {b} is {a/b}')
+
+print(f'The power of {a} to {b} is {a**b}')
+
+if( a%2==0 and b%2==0):
+ print(f'Both {a} and {b} is even')
+
+elif(a%2==0 and b%2!=0):
+ print(f'{a} is even but {b} is odd')
+
+elif(a%2!=0 and b%2==0):
+ print(f'{a} is odd but {b} is even')
+
+elif(a%2!=0 and b%2!=0):
+ print(f'Both {a} and {b} is odd')
